@@ -181,7 +181,7 @@ with open(drug_file,'r') as f:
 			print("TER")
 		elif line[0:3] == "END":
                 	print("END")
-		else:
+		elif (line[0:4] == "ATOM" or line[0:6] == "HETATM"):
 			print("%s   %7.3f %7.3f %7.3f" % (line[0:28],float(line[30:38])+move.x,float(line[38:46])+move.y,float(line[46:54])+move.z))
 
 	print("TER")
