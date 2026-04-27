@@ -7,7 +7,7 @@ Tutorial to run the AMBER umbrella COM restraint code and derive the free energy
 
 * AMBER16 or above (has COM umbrella restraint code)
 * Python 2.7 (https://www.continuum.io/downloads)
-* WHAM (http://membrane.urmc.rochester.edu/content/wham)  
+* WHAM (https://github.com/agrossfield/wham)  
 
 # Files
 You can download this tutorial from github, the resulting zip file will not have any trajectories from the MD simulations described below due to file size limits. You may have to give the scripts executable permissions with chmod. Or runs scripts as:
